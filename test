@@ -1,0 +1,10 @@
+import numpy as np 
+import pandas as pd 
+
+data = {'First Column Name':  [1,2,3,4,5],
+        'Second Column Name': ['one', 'two','three', 'four','five']
+        }
+
+df = pd.DataFrame (data, columns = ['First Column Name','Second Column Name'])
+
+print (df)
